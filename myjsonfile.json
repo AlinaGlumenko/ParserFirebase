@@ -1,0 +1,496 @@
+[
+  {
+    "title": "Cloud Firestore",
+    "platforms": "iOS; Android; Web",
+    "descr": "Store and sync data between users and devices - at global scale - using a cloud-hosted, NoSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.",
+    "more": "https://firebase.google.com/products/firestore/",
+    "docs": "https://firebase.google.com/docs/firestore/",
+    "videoLink": "https://www.youtube.com/embed/QcsAb2RR52c",
+    "blocks": [
+      {
+        "title": "NoSQL database built for global apps",
+        "descr": "Cloud Firestore is a NoSQL document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale."
+      },
+      {
+        "title": "Query and structure data the way you like",
+        "descr": "Structure your data easily with collections and documents. Build hierarchies to store related data and easily retrieve the data you need using expressive queries. All queries scale with the size of your result set (note: not your data set), so your app is ready to scale from day one.  Learn more about data querying."
+      },
+      {
+        "title": "Build truly serverless apps",
+        "descr": "Cloud Firestore ships with mobile and web SDKs and a comprehensive set of security rules so you can access your database without needing to stand up your own server. Using Cloud Functions, our serverless compute product, you can execute hosted backend code that responds to data changes in your database. Of course, you can also access Cloud Firestore with traditional client libraries too (i.e. Node, Python, Go, and Java)."
+      },
+      {
+        "title": "Sync data across devices, on or offline",
+        "descr": "With Cloud Firestore, you can automatically synchronize your app data between devices. We’ll notify you of data changes as they occur so you can easily build collaborative experiences and realtime apps. Your users can access and make changes to their data at any time, even when they're offline. Offline mode is available on iOS, Android and Web!"
+      },
+      {
+        "title": "Scale globally",
+        "descr": "Powered by Google’s storage infrastructure, Cloud Firestore is built to scale with your business. Now, you can focus on building your app instead of managing servers or worrying about consistency."
+      },
+      {
+        "title": "Strong user-based security",
+        "descr": "With our declarative security language, you can restrict data access based on user identity data, pattern matching on your data, and more. Cloud Firestore also integrates with Firebase Authentication to give you simple and intuitive user authentication."
+      }
+    ]
+  },
+  {
+    "title": "ML Kit",
+    "platforms": "iOS; Android",
+    "descr": "Bring powerful machine learning features to your mobile app whether you're new or experienced in ML. Get started easily by using our ready-to-use APIs for common mobile use cases, or import your own custom models which can be hosted and served to your apps by Firebase. ML Kit APIs can run on-device or in the cloud, depending on the functionality, and some give you both choices.",
+    "more": "https://firebase.google.com/products/ml-kit/",
+    "docs": "https://firebase.google.com/docs/ml-kit/",
+    "videoLink": "https://www.youtube.com/embed/ejrn_JHksws",
+    "blocks": [
+      {
+        "title": "Mobile machine learning for all skill levels",
+        "descr": "ML Kit lets you bring powerful machine learning features to your app whether it's for Android or iOS, and whether you're an experienced machine learning developer or you're just getting started."
+      },
+      {
+        "title": "Production-ready for common use cases",
+        "descr": "ML Kit comes with a set of ready-to-use APIs for common mobile use cases: recognizing text, detecting faces, scanning barcodes, labeling images and recognizing landmarks. You simply pass in data to the ML Kit library and it will give you the information you need - all in a few lines of code."
+      },
+      {
+        "title": "On-device or in the Cloud",
+        "descr": "ML Kit gives you both on-device and Cloud APIs, all in a common and simple interface, allowing you to choose the ones that fit your requirements best. The on-device APIs process data quickly and will work even when there’s no network connection, while the cloud-based APIs leverage the power of Google Cloud Platform's machine learning technology to give a higher level of accuracy."
+      },
+      {
+        "title": "Deploy custom models",
+        "descr": "If ML Kit’s APIs don’t cover your use cases, you can always bring your own existing TensorFlow Lite models. Just upload your model on to Firebase, and we’ll take care of hosting and serving it to your app. ML Kit acts as an API layer to your custom model, making it easy to run and use. You can also train a custom model using AutoML Vision and then easily deploy that model via ML Kit."
+      }
+    ]
+  },
+  {
+    "title": "Cloud Functions",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Extend your app with custom backend code without needing to manage and scale your own servers. Functions can be  triggered by events, which are emitted by Firebase products,  Google Cloud services, or third parties, using webhooks.",
+    "more": "https://firebase.google.com/products/functions/",
+    "docs": "https://firebase.google.com/docs/functions/",
+    "videoLink": "https://www.youtube.com/embed/vr0Gfvp5v1A",
+    "blocks": [
+      {
+        "title": "Develop a backend without servers",
+        "descr": "Create functions that are triggered by Firebase products, such as changes to data in the Realtime Database, new user sign-ups via Auth, and conversion events in Analytics. Are you a Google Cloud Platform developer?  See Google Cloud Functions."
+      },
+      {
+        "title": "Run your mobile backend code without managing servers",
+        "descr": "Cloud Functions are single-purpose JavaScript functions that are executed in a secure, managed Node.js environment. They are only executed when a specific event being watched is emitted."
+      },
+      {
+        "title": "Low maintenance",
+        "descr": "Deploying your code to our servers requires just one command. After that, Cloud Functions automatically scales up computing resources to match the usage patterns of your app. You never worry about SSH credentials, server configuration, provisioning new servers, or decommissioning old ones."
+      },
+      {
+        "title": "Keeps your logic private and secure",
+        "descr": "In many cases, application logic is best controlled on the server to avoid tampering on the client side. Cloud Functions is fully insulated from the client, so you can be sure its functions are private and secure and can’t be reverse engineered."
+      }
+    ]
+  },
+  {
+    "title": "Authentication",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Manage your users in a simple and secure way. Firebase Auth offers multiple methods to authenticate, including email and password, third-party providers like Google or Facebook, and using your existing account system directly. Build your own interface, or take advantage of our open source, fully customizable UI.",
+    "more": "https://firebase.google.com/products/auth/",
+    "docs": "https://firebase.google.com/docs/auth/",
+    "videoLink": "https://www.youtube.com/embed/8sGY55yxicA",
+    "blocks": [
+      {
+        "title": "Easy sign-in with any platform",
+        "descr": "Firebase Authentication aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for end users. It provides an end-to-end identity solution, supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more."
+      },
+      {
+        "title": "Flexible, drop-in UI",
+        "descr": "FirebaseUI provides a customizable, open source, drop-in auth solution that handles the UI flows for signing in users. The FirebaseUI Auth component implements best practices for authentication on mobile devices and websites, which can maximize sign-in and sign-up conversion for your app."
+      },
+      {
+        "title": "Comprehensive security",
+        "descr": "Built by the same team that developed Google Sign-in, Smart Lock and Chrome Password Manager, Firebase security applies Google's internal expertise of managing one of the largest account databases in the world."
+      },
+      {
+        "title": "Fast implementation",
+        "descr": "It can take months to set up your own auth system, and it requires an engineering team to maintain that system into in the future. Set up the entire authentication system of your app in under 10 lines of code, even handling complex cases like account merging."
+      }
+    ]
+  },
+  {
+    "title": "Hosting",
+    "platforms": "Web",
+    "descr": "Simplify your web hosting with tools made specifically for modern web apps. When you upload your web assets, we automatically push them out to our global CDN and give them a free SSL certificate so your users get a secure, reliable, low-latency experience, no matter where they are.",
+    "more": "https://firebase.google.com/products/hosting/",
+    "docs": "https://firebase.google.com/docs/hosting/",
+    "videoLink": "https://www.youtube.com/embed/jsRVHeQd5kU",
+    "blocks": [
+      {
+        "title": "Deliver web content fast",
+        "descr": "With Firebase Hosting, you can deploy a single-page web app, a mobile app landing page, or a progressive web app without all the hassle."
+      },
+      {
+        "title": "SSD-backed hosting, around the globe",
+        "descr": "No matter where a user is, content is delivered fast. Files deployed to Firebase Hosting are cached on SSDs at CDN edge servers around the world."
+      },
+      {
+        "title": "Free SSL certificates for custom domains",
+        "descr": "Firebase Hosting automatically provisions and configures an SSL certificate for each site deployed. Connect a custom domain with painless verification."
+      },
+      {
+        "title": "Deploy with one command",
+        "descr": "Deploying your app from a local directory to the web only takes one command. See deployment history and roll back to a previous version from the Firebase console."
+      }
+    ]
+  },
+  {
+    "title": "Cloud Storage",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Store and share user-generated content like images, audio, and video with powerful, simple, and cost-effective object storage built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for your Firebase apps, regardless of network quality.",
+    "more": "https://firebase.google.com/products/storage/",
+    "docs": "https://firebase.google.com/docs/storage/",
+    "videoLink": "https://www.youtube.com/embed/_tyjqozrEPY",
+    "blocks": [
+      {
+        "title": "Store your users’ photos and videos",
+        "descr": "Cloud Storage is designed to help you quickly and easily store and serve user-generated content, such as photos and videos."
+      },
+      {
+        "title": "Build at Google scale",
+        "descr": "Our infrastructure is built for when your app goes viral. Effortlessly grow from prototype to production using the same technology that powers apps like Spotify and Google Photos."
+      },
+      {
+        "title": "Robust uploads and downloads",
+        "descr": "Your users aren't always online, so we built the Firebase SDK for Cloud Storage with mobile connectivity in mind. It will automatically pause and resume your transfers as the app loses and regains mobile connectivity, saving your users time and bandwidth."
+      },
+      {
+        "title": "Strong user-based security",
+        "descr": "The Firebase SDK for Cloud Storage integrates with Firebase Authentication to provide simple and intuitive access control. You can use our declarative security model to allow access based on user identity or properties of a file, such as name, size, content type, and other metadata."
+      }
+    ]
+  },
+  {
+    "title": "Realtime Database",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Realtime Database is Firebase's original database. It's an efficient, low-latency solution for mobile apps that require synced states across clients in realtime. We recommend Cloud Firestore instead of Realtime Database for most developers starting a new project.",
+    "more": "https://firebase.google.com/products/realtime-database/",
+    "docs": "https://firebase.google.com/docs/database/",
+    "videoLink": "https://www.youtube.com/embed/U5aeM5dvUpA",
+    "blocks": [
+      {
+        "title": "Real time syncing for JSON data",
+        "descr": "The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in realtime.NEW: Cloud Firestore enables you to store, sync and query app data at global scale."
+      },
+      {
+        "title": "Collaborate across devices with ease",
+        "descr": "Realtime syncing makes it easy for your users to access their data from any device: web or mobile, and it helps your users collaborate with one another."
+      },
+      {
+        "title": "Build serverless apps",
+        "descr": "Realtime Database ships with mobile and web SDKs so you can build apps without the need of servers. You can also execute backend code that responds to events triggered by your database using Cloud Function for Firebase."
+      },
+      {
+        "title": "Optimized for offline use",
+        "descr": "When your users go offline, the Realtime Database SDKs use local cache on the device to serve and store changes. When the device comes online, the local data is automatically synchronized."
+      },
+      {
+        "title": "Strong user-based security",
+        "descr": "The Realtime Database integrates with Firebase Authentication to provide simple and intuitive authentication for developers. You can use our declarative security model to allow access based on user identity or with pattern matching on your data."
+      }
+    ]
+  },
+  {
+    "title": "Crashlytics",
+    "platforms": "iOS; Android; Unity",
+    "descr": "Reduce your troubleshooting time by turning an avalanche of crashes into a manageable list of issues. Get clear, actionable insight into which issues to tackle first by seeing the user impact right in the Crashlytics dashboard. Realtime alerts will help you stay on top of stability even on the go. Crashlytics is the primary crash reporter for Firebase.",
+    "more": "https://firebase.google.com/products/crashlytics/",
+    "docs": "https://firebase.google.com/docs/crashlytics/",
+    "videoLink": "https://www.youtube.com/embed/k_mdNRZzd30",
+    "blocks": [
+      {
+        "title": "Powerful, realtime crash reporting",
+        "descr": "Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building app features that delight users."
+      },
+      {
+        "title": "Quickly pinpoint the root cause of crashes",
+        "descr": "Crashlytics intelligently groups an avalanche of crashes into a manageable list of issues. It also provides information on why a crash occurred and what happened leading up to it. With this insight, you can uncover the root cause of crashes more quickly."
+      },
+      {
+        "title": "Understand what issue to tackle first",
+        "descr": "Crashes are prioritized by impact on actual users so you know how best to triage effort for fixing bugs."
+      },
+      {
+        "title": "Never miss a critical crash",
+        "descr": "Get realtime alerts for new issues, regressed issues, and burgeoning issues that might require immediate attention, no matter where you are."
+      }
+    ]
+  },
+  {
+    "title": "Performance Monitoring",
+    "platforms": "iOS; Android",
+    "descr": "Diagnose app performance issues occurring on your users’ devices. Use traces to monitor the performance of specific parts of your app and see a summarized view in the Firebase console. Stay on top of your app’s start-up time and monitor HTTP requests without writing any code.",
+    "more": "https://firebase.google.com/products/performance/",
+    "docs": "https://firebase.google.com/docs/perf-mon/",
+    "videoLink": "https://www.youtube.com/embed/0EHSPFvH7vk",
+    "blocks": [
+      {
+        "title": "Keep your app fast and responsive",
+        "descr": "Get insights into how your app performs from your users’ point of view, with automatic and customized performance tracing."
+      },
+      {
+        "title": "Use traces to get performance context",
+        "descr": "Using custom traces, you can understand the context in which performance issues take place and more easily address them. You can also make use of automated traces, like app startup time."
+      },
+      {
+        "title": "Keep your eyes on network behavior",
+        "descr": "Understand the network latencies affecting your users with automated monitoring of HTTP/S requests. You can track response times, success rates, payload sizes, and the time spent waiting for the payload versus downloading it."
+      },
+      {
+        "title": "Pinpoint the origin of issues",
+        "descr": "Break down both trace and network data into dimensions like app version, country, device, and OS level to get to the bottom of issues."
+      }
+    ]
+  },
+  {
+    "title": "Test Lab",
+    "platforms": "iOS; Android",
+    "descr": "Run automatic and customized tests for your app on virtual and physical devices hosted by Google. Use Firebase Test Lab throughout your development lifecycle to discover bugs and inconsistencies so that you can offer up a great experience on a wide variety of devices.",
+    "more": "https://firebase.google.com/products/test-lab/",
+    "docs": "https://firebase.google.com/docs/test-lab/",
+    "videoLink": "https://www.youtube.com/embed/4_ZEEX1x17k",
+    "blocks": [
+      {
+        "title": "Run your app on real devices",
+        "descr": "To ensure your app quality, Firebase Test Lab provides you with physical and virtual devices that allow you to run tests that simulate actual usage environments."
+      },
+      {
+        "title": "Integrates with your existing workflows",
+        "descr": "Whether in Android Studio, in a continuous integration environment, or through a web browser, Firebase Test Lab fits with your workflow and makes it easy to start your tests."
+      },
+      {
+        "title": "Test your app—no coding required!",
+        "descr": "Don’t have tests? Our intelligent crawler, Robo, navigates your app automatically. It reports crashes and provides screenshots so you can spot errors before your users see them."
+      },
+      {
+        "title": "Actionable results at your fingertips",
+        "descr": "Our comprehensive test reports include logs, screenshots, and videos, allowing you to fix any issues you might find with your app and take it back to a more stable state."
+      },
+      {
+        "title": "Firebase Test Lab reduced American Express app test costs by 50%",
+        "descr": "Firebase Test Lab allowed American Express to switch all of their continuous integration testing to Test Lab and successfully retire much of their device lab. This enabled the engineers maintaining the devices to shift their focus to shipping new features to Card Members while also writing and running tests to ensure high product quality."
+      }
+    ]
+  },
+  {
+    "title": "In-App Messaging",
+    "platforms": "iOS; Android",
+    "descr": "Engage and nurture your active users with targeted and contextual messages that encourage them to complete meaningful actions within your app. You have the power to trigger messages based on user behavior and interests. You can also customize the design of in-app messages to fit your brand. In-App Messaging supports a variety of use cases and formats.",
+    "more": "https://firebase.google.com/products/in-app-messaging/",
+    "docs": "https://firebase.google.com/docs/in-app-messaging/get-started/",
+    "videoLink": "https://www.youtube.com/embed/5MRKpvKV2pg",
+    "blocks": [
+      {
+        "title": "Nurture your most valuable users",
+        "descr": "Firebase In-App Messaging helps you engage users who are actively using your app by sending them targeted and contextual messages that nudge them to complete key in-app actions - like beating a game level, buying an item, or subscribing to content."
+      },
+      {
+        "title": "Trigger messages based on behavior and interests",
+        "descr": "In-App Messaging integrates with Analytics and Predictions to give you advanced targeting capabilities. You have the power to send messages to users based on their actions (past, present, and future) and their interests. A guiding light within the app, in-app messages are highly contextual and relevant because they appear as a direct result of behavior."
+      },
+      {
+        "title": "Customize the design for a variety of use cases",
+        "descr": "You can easily tailor the design of in-app messages to match your brand so they feel like a native part of your app experience. You can also tweak the copy and content to appeal to different audiences and run a variety of engagement campaigns. Plus, you have the flexibility to choose between three formats - banner, modal, and image."
+      },
+      {
+        "title": "Get insight into performance",
+        "descr": "Since In-App Messaging works with Analytics, you’ll be able to see how each messaging campaign is performing. In-App Messaging tracks impressions, clicks, and conversions by date so you can understand the success of campaigns and make informed decisions on re-running them or altering them based on the results."
+      }
+    ]
+  },
+  {
+    "title": "Google Analytics",
+    "platforms": "iOS; Android; C++; Unity",
+    "descr": "Analyze user attributions and behavior in a single dashboard to make informed decisions on your product roadmap. Gain realtime insights from reports, or export your raw event data to Google BigQuery for custom analysis.",
+    "more": "https://firebase.google.com/products/analytics/",
+    "docs": "https://firebase.google.com/docs/analytics/",
+    "videoLink": "https://www.youtube.com/embed/8iZpH7O6zXo",
+    "blocks": [
+      {
+        "title": "Reimagine analytics for mobile",
+        "descr": "Google Analytics for Firebase provides free, unlimited reporting on up to 500 distinct events. The SDK automatically captures certain key events and user properties, and you can define your own custom events to measure the things that uniquely matter to your business."
+      },
+      {
+        "title": "User insights from acquisition to app usage",
+        "descr": "Analytics surfaces data about user behavior in your iOS and Android apps, enabling you to make better decisions about your product and marketing optimization. View crash data, notification effectiveness, deep-link performance, in-app purchase data, and more."
+      },
+      {
+        "title": "Attribution across dozens of sources",
+        "descr": "Analytics integrates with dozens of ad networks, making it easy with one SDK. Close the loop and send conversion data back to those networks to track and attribute app campaign performance across sources with postbacks to optimize campaign performance."
+      },
+      {
+        "title": "Segmentation and optimization in one dashboard",
+        "descr": "Define custom audiences in the Firebase console based on device data and user behavior by utilizing events and user properties, and then use those segments for notifications, A/B tests (via Firebase Remote Config), and Google Ads remarketing. For custom analysis, you can export raw data to BigQuery."
+      },
+      {
+        "title": "With Google Ads, insights become actions",
+        "descr": "Google Ads helps you advertise your app to the billions of people that use Search, YouTube, Google Play, and more. In just a few minutes, you can use your Analytics data to understand campaign performance, unlocking optimizations to find more engaged and valuable customers for your app via App Campaigns.Grow your user base with Google App campaigns."
+      },
+      {
+        "title": "Realtime Analytics",
+        "descr": "Understand user behavior and view live usage data with realtime reporting. Use StreamView to get a live, dynamic view of your analytics data, and use DebugView to validate your analytics instrumentation by visualizing the stream of events logged by your development devices. Want custom reports? Stream your events to BigQuery in realtime, and create custom dashboards in Google Data Studio."
+      },
+      {
+        "title": "Seamless integration with AdMob",
+        "descr": "When you link your AdMob app to Firebase, your Analytics reports incorporate ad metrics and AdMob revenue, giving you a richer view of the Lifetime Value of your users and the performance of your in-app advertising strategy."
+      },
+      {
+        "title": "KCB Group lowers cost per install 24% with Google Analytics for Firebase",
+        "descr": "KCB Group, an East African bank, uses its mobile app as a primary tool for customer acquisition and engagement. Lacking a unified way to measure campaign performance, they worried that they were overspending on some of their acquisition channels. Google Analytics for Firebase gave them insight into their customer behavior across all acquisition channels, leading to a meaningful boost in conversion rate and reduction in cost per install."
+      }
+    ]
+  },
+  {
+    "title": "Predictions",
+    "platforms": "iOS; Android; C++; Unity",
+    "descr": "Harness the power of Google’s machine learning to get insight into which segments of users are likely to churn or spend (or complete another conversion event). Use these smart predictive segments for targeting in other products like Remote Config, Cloud Messaging, and In-App Messaging.",
+    "more": "https://firebase.google.com/products/predictions/",
+    "docs": "https://firebase.google.com/docs/predictions/",
+    "videoLink": "https://www.youtube.com/embed/ORrvrVEHJz4",
+    "blocks": [
+      {
+        "title": "Grow your app with Google’s machine learning",
+        "descr": "Firebase Predictions applies the power of Google’s machine learning to your app analytics data to create user segments based on predicted behavior. Without requiring anyone on your app team to have ML expertise, Predictions can give you insight into which segments of users are likely to churn or spend (or complete another conversion event) so you can make informed product decisions."
+      },
+      {
+        "title": "Personalize your app experience to boost revenue and retention",
+        "descr": "Predictions is integrated with Remote Config so you can customize and alter your app experience for users in different segments. For example, you can show ads to users who are unlikely to make an in-app purchase as an alternative monetization strategy.  When defining a Remote Config, you can combine Predictions with other targeting options including audiences, user properties, device language, OS type, app version, and country."
+      },
+      {
+        "title": "Run more sophisticated messaging campaigns",
+        "descr": "Predictions creates user groups that can be used for targeting with notifications and In-App Messaging, right from the Firebase console. This way, you can engage users before they churn, nudge users who are likely to make in-app purchases, and much more."
+      },
+      {
+        "title": "Export your predictions to BigQuery",
+        "descr": "Prediction data can be exported to BigQuery for deeper analysis or use in third party services."
+      },
+      {
+        "title": "Insight into prediction inputs and performance",
+        "descr": "You have visibility into the factors the ML model considers (like events, device, user data, etc.) to create each predictive segment. You can also see performance metrics, which help you understand how accurate each prediction is. With these insights, you can better calibrate your risk tolerance settings."
+      }
+    ]
+  },
+  {
+    "title": "A/B Testing",
+    "platforms": "iOS; Android",
+    "descr": "Improve your app by running product and marketing experiments, without worrying about setting up the infrastructure to run A/B tests. Customize experiments to suit your goals. Test a variety of updates to your app, like message copy or new features. Then, only roll-out changes proven to move the needle on your key metrics.",
+    "more": "https://firebase.google.com/products/ab-testing/",
+    "docs": "https://firebase.google.com/docs/ab-testing/",
+    "videoLink": "https://www.youtube.com/embed/OxMQORNh2E4",
+    "blocks": [
+      {
+        "title": "Intelligently grow your app with experiments",
+        "descr": "Firebase A/B Testing helps you improve your app by making it easy to run, analyze, and scale product and marketing experiments. It gives you the power to test changes to your app’s UI, features, or engagement campaigns to see if they actually move the needle on your key metrics (like revenue) before you implement them widely."
+      },
+      {
+        "title": "Achieve your business goals",
+        "descr": "Firebase A/B Testing shows you the impact app changes have on your most important business metrics. Out-of-the-box, it tracks retention, revenue, and engagement. In conjunction with Google Analytics for Firebase, you can also track how user actions change in each experiment."
+      },
+      {
+        "title": "Customize experiments to test a variety of updates",
+        "descr": "Firebase A/B Testing gives you the flexibility to customize your experiment to suit your unique app needs. You determine what elements you want to test, which users to target, what parameters to put in place, and how many variants to include. Want to revamp your onboarding flow? Tweak the copy of your notifications? Or even change the frequency of your ad intermissions? Anything that can be defined in a variable can be tested with Firebase A/B Testing because it works seamlessly with both Cloud Messaging and Remote Config"
+      },
+      {
+        "title": "Roll out changes with confidence",
+        "descr": "Using sophisticated Bayesian analysis on the backend, Firebase A/B Testing will help you determine not only which variation performed best, but also if these results are statistically significant. Stop worrying about potential repercussions of app updates; use Firebase A/B Testing to test, modify and roll out changes to your app with confidence."
+      },
+      {
+        "title": "Empower your team without eating up engineering time",
+        "descr": "A/B testing is important, but it requires a significant amount of engineering effort to create the infrastructure needed to run an A/B test. With Firebase A/B Testing, set-up is quick and easy. Once A/B testing is configured, anyone in your organization can run and analyze experiments because Firebase A/B Testing fits naturally with your experimentation process. It doesn’t change the way you work; it allows you to iterate faster, and at larger scale"
+      },
+      {
+        "title": "Hotstar scales with Firebase and increases engagement by 38%",
+        "descr": "Hotstar, India’s largest entertainment app with millions\nof users around the world, provides live-streaming of TV\nshows, movies, sports, and news on the go. By using a\ncombination of Firebase products together, Hotstar safely\nrolled out new features to its watch screen during a major\nlive-streaming event without disrupting users, sacrificing\nstability, or releasing a new build."
+      }
+    ]
+  },
+  {
+    "title": "Cloud Messaging",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Send messages and notifications to users across platforms—Android, iOS, and the web—for free. Messages can be sent to single devices, groups of devices, or specific topics or user segments. Firebase Cloud Messaging (FCM) scales to even the largest apps, delivering hundreds of billions of messages per day.",
+    "more": "https://firebase.google.com/products/cloud-messaging/",
+    "docs": "https://firebase.google.com/docs/cloud-messaging/",
+    "videoLink": "https://www.youtube.com/embed/sioEY4tWmLI",
+    "blocks": [
+      {
+        "title": "Send messages to any device",
+        "descr": "Firebase Cloud Messaging (FCM) provides a reliable and battery-efficient connection between your server and devices that allows you to deliver and receive messages and notifications on iOS, Android, and the web at no cost."
+      },
+      {
+        "title": "Advanced message targeting",
+        "descr": "Easily target messages using predefined segments or create your own, using demographics and behavior. Target messages to devices that have subscribed to specific topics, or get as granular as a single device."
+      },
+      {
+        "title": "Customized notification content",
+        "descr": "Deliver notification messages immediately, or at a future time in the user's local time zone. Send custom data, and set priorities, sounds, and expiration dates, and track custom conversion events."
+      },
+      {
+        "title": "No coding required for sending notifications",
+        "descr": "Notification messages are fully integrated with Google Analytics for Firebase, giving you access to detailed engagement and conversion tracking. Monitor effectiveness from a single dashboard with no coding required."
+      },
+      {
+        "title": "A/B test notifications",
+        "descr": "Use A/B testing to try out different versions of your notification messages, and then easily see which one performs best against your goals. A/B testing can also be used with Remote Config.  A/B testing was built in partnership with Google Optimize, an A/B testing and personalization tool for the web."
+      }
+    ]
+  },
+  {
+    "title": "Remote Config",
+    "platforms": "iOS; Android; C++; Unity",
+    "descr": "Customize how your app renders for each user. Change the look and feel, roll out features gradually, run A/B tests, deliver customized content to certain users, or make other updates without deploying a new version—all from the Firebase console. Monitor the impact of your changes and make adjustments in a matter of minutes.",
+    "more": "https://firebase.google.com/products/remote-config/",
+    "docs": "https://firebase.google.com/docs/remote-config/",
+    "videoLink": "https://www.youtube.com/embed/_CXXVFPO6f0",
+    "blocks": [
+      {
+        "title": "Make changeswithout republishing",
+        "descr": "With Firebase Remote Config, you can change the behavior and appearance of your app on the fly from the Firebase console, and then track performance in Google Analytics for Firebase. Customize by audience segment, release new content, and split test to validate improvements, all without waiting for app store approval."
+      },
+      {
+        "title": "Customize everything about your app",
+        "descr": "Make changes to your app's default behavior and appearance by changing server-side parameter values. For example, you could change your app's color theme to match a seasonal promotion or change the start date of a sale with no need to publish an app update."
+      },
+      {
+        "title": "Tailor your app to different audiences",
+        "descr": "Provide a different app experience to different segments of your user base. You can segment by user property, app version, operating system, language, country, and by any custom audience you can define in Firebase Analytics."
+      },
+      {
+        "title": "Run A/B experiments easily",
+        "descr": "Remote Config works with A/B Testing so you can\nset up and run experiments to test changes to your app. Want to tweak\nyour onboarding flow? Or get insight into how a new feature will impact\nengagement? Use Remote Config with A/B Testing to understand which\nchanges are worth rolling out widely.A/B testing was built in partnership with Google\nOptimize, an A/B\ntesting and personalization tool for the web."
+      }
+    ]
+  },
+  {
+    "title": "Dynamic Links",
+    "platforms": "iOS; Android; Web; C++; Unity",
+    "descr": "Use Dynamic Links to deliver a customized user experience for iOS, Android, and the web. You can use them to power mobile web to drive native app conversions, user to user sharing, social and marketing campaigns, and more. Dynamic Links provides you with the attributions you need to better understand your mobile growth.",
+    "more": "https://firebase.google.com/products/dynamic-links/",
+    "docs": "https://firebase.google.com/docs/dynamic-links/",
+    "videoLink": "https://www.youtube.com/embed/LvY1JMcrPF8",
+    "blocks": [
+      {
+        "title": "Deep links that survive the install process",
+        "descr": "Dynamic Links are smart URLs that allow you to send existing and potential users to any location within your iOS or Android app. They survive the app install process, so even new users see the content they're looking for when they open the app for the first time. Dynamic Links are free forever, for any scale."
+      },
+      {
+        "title": "Convert mobile web users to native app users",
+        "descr": "With Dynamic Links, you can seamlessly transition users from your mobile website to the equivalent content within your app. And because the links survive the app install process, even new users can pick up where they left off on your mobile site without missing a beat."
+      },
+      {
+        "title": "Increase conversion for user-to-user sharing",
+        "descr": "When a user shares content from your app, the ultimate goal is to convert their friends into active native app users. One of the most effective ways to accomplish that is to skip your generic onboarding and present personalized content when the app is first opened. Using Dynamic Links makes this easy."
+      },
+      {
+        "title": "Drive more installs with social, email, and SMS marketing campaigns",
+        "descr": "Promotional campaigns that include Dynamic Links work for all users on every platform. When users open or install your app, they see the exact content your campaign is marketing, including any discounts you're offering."
+      },
+      {
+        "title": "Turn desktop users into mobile app users",
+        "descr": "Dynamic Links can help migrate users from your website to your mobile app. Give them an easy way to send themselves a deep link that,  when clicked on a mobile device, automatically opens in the right context within your app (even if they need to install the app first)."
+      }
+    ]
+  }
+]
